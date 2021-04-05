@@ -82,7 +82,7 @@ body{
 
 @media screen and (min-width:1024px){
     #TMG{
-        margin: 10% 5% 10% 2%;
+        margin: 3% 5% 3% 2%;
         column-gap: 1rem;
         grid-template-rows: 45% 50%;
         grid-template-columns: 30% 20% 27% 22%;
@@ -90,7 +90,7 @@ body{
         "dani dani jona kira"
         "jean patr patr kira";
 
-        #TMG__article-daniel{grid-area: dani;}
+        #TMG__article-daniel{grid-area: dani; background-position: top right 15%;}
         #TMG__article-jonathan{grid-area: jona;}
         #TMG__article-jeanette{grid-area: jean;}
         #TMG__article-patrick{grid-area:patr;}
